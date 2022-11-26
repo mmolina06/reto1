@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'monoBold';
+    src: url("../fonts/Space_Mono/SpaceMono-Bold.ttf");
+}
+@font-face {
+    font-family: 'monoBoldItalic';
+    src: url("../fonts/Space_Mono/SpaceMono-BoldItalic.ttf");
+}
+@font-face {
+    font-family: 'monoItalic';
+    src: url("../fonts/Space_Mono/SpaceMono-Italic.ttf");
+}
+@font-face {
+    font-family: 'monoRegular';
+    src: url("../fonts/Space_Mono/SpaceMono-Regular.ttf");
+}
+
+*{
+    font-family: 'monoRegular';
+    font-weight: 500;
+}
+
+#p_titulo{
+    font-family: 'monoBold';
+    font-size: 18px;
+
+}
+
+#authors{
+    font-family: 'monoBold';
+    font-size: 18px;
+
+}
+.container{
+    margin: 10% 5% 20% 5% ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container__img{
+    width: 500px;
+    height: 100%;
+}
+
+.container__img > img {
+    width: 100%;
+}
+
+.container__bodyText{
+    width: 450px;
+    height: 100%;
+    
+   
+}
+p{
+    font-size: 24;
+    color: #4F4F4F;
+}
+button{
+    background-color: #333333;
+    padding :10px 20px 10px 20px;
+    font-size: 18px;
+    color: white;
+    font-family:'monoBold';
+
+}
+ h1{ 
+    font-family: 'monoBold';
+}
+footer{
+    color:#4F4F4F;
+    text-align: center;
+    font-size: 18px;
+}
